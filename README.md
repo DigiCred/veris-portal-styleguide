@@ -4,7 +4,7 @@
 
 ## Setup
 
--Clone this repo and then run the following commands in the cloned directory for setting up the local package:
+- Clone this repo and then run the following commands in the cloned directory for setting up the local package:
 ```bash
 npm i
 npm run build
