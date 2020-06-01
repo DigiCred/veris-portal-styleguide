@@ -3,7 +3,6 @@
 > Veris React UI components for web
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
--styleguide.svg)](https://www.npmjs.com/package/veris-styleguide) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Setup
 
@@ -50,6 +49,7 @@ Run the following command in styleguidist folder
 npm run build
 ```
 Note: If any error arises try using sudo.
+
 Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected.
 
 
