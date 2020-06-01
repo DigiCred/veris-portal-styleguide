@@ -1,7 +1,6 @@
 # veris-styleguide
 
-> Veris React UI components for web
-This library is created using create-react-library, for more details visit https://github.com/transitive-bullshit/create-react-library. For documentation of styleguide we are using react-styleguidist so for more details on how to document the components follow this link https://react-styleguidist.js.org/.
+> Veris React UI components for web is created using create-react-library, for more details visit https://github.com/transitive-bullshit/create-react-library. For documentation of styleguide we are using react-styleguidist so for more details on how to document the components follow this link https://react-styleguidist.js.org/.
 
 ## Setup
 
