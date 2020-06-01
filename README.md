@@ -2,8 +2,6 @@
 
 > Veris React UI components for web
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 ## Setup
 
 -Clone this repo and then run the following commands in the cloned directory for setting up the local package:
@@ -48,8 +46,6 @@ Run the following command in styleguidist folder
 ```bash
 npm run build
 ```
-Note: If any error arises try using sudo.
-
-Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected.
+If any error arises try using sudo. Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected.
 
 
