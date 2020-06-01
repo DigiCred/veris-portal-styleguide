@@ -8,6 +8,7 @@ module.exports = {
   components: '../src/components/[A-Za-z]**/*.js',
   ignore: ['**/src/test.js'],
   require: ['../dist/index.css'],
+  styleguideDir: "../doc",
   webpackConfig: {
     resolve: {
       alias: {
