@@ -1,6 +1,7 @@
 # veris-styleguide
 
 > Veris React UI components for web
+For documentation of styleguide we are using react-styleguidist so for more details on how to document the components follow this link https://react-styleguidist.js.org/
 
 ## Setup
 
@@ -46,6 +47,8 @@ Run the following command in styleguidist folder
 ```bash
 npm run build
 ```
-If any error arises try using sudo. If error still persists delete the docs folder and try again. Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected.
+If any error arises try using sudo. If error still persists delete the docs folder and try again. Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected. 
+
+If changes are not reflected then open the index.html file in docs folder make some minor change in it like adding a whitespace and save the file. Try again it should work.
 
 
