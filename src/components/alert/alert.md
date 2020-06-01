@@ -1,0 +1,1 @@
+We use cogo-toast for alerts. Follow this documentation for details https://cogoport.github.io/cogo-toast/.

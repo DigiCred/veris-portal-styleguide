@@ -1,0 +1,20 @@
+{
+  "name": "styleguidsist",
+  "version": "1.0.0",
+  "description": "react-styleguidist setup for Veris",
+  "main": "styleguide.config.js",
+  "scripts": {
+    "start": "styleguidist server",
+    "build": "styleguidist build"
+  },
+  "keywords": [
+    "styleguidist"
+  ],
+  "author": "Sandeep Babbar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-styleguidist": "^11.0.8"
+  }
+}

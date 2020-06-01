@@ -1,0 +1,15 @@
+.vrs-input{
+	position: relative;
+	font-family: gilroy;
+	font-size: 14px;
+	border: 1px solid #c2c5cc;
+	border-radius: 9px;
+	padding: 10px 12px;
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+	margin: 0px;
+	line-height: 14px;
+	height: 36px;
+	color: #6e7380;
+}
