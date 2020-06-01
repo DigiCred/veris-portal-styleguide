@@ -13,7 +13,7 @@ npm i
 npm run build
 npm link
 ```
-- To setup react-styleguidist. Make sure you are in styleguidist directory.
+- To setup react-styleguidist (Package used for documenting components). Make sure you are in styleguidist directory.
 package:
 ```bash
 cd /styleguidist 
@@ -44,6 +44,12 @@ class Example extends Component {
 }
 ```
 
-## License
+## Publish Styleguide
+Run the following command in styleguidist folder
+```bash
+npm run build
+```
+Note: If any error arises try using sudo.
+Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected.
 
-MIT © [veris-sandeep](https://github.com/veris-sandeep)
+
