@@ -46,6 +46,6 @@ Run the following command in styleguidist folder
 ```bash
 npm run build
 ```
-If any error arises try using sudo. Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected.
+If any error arises try using sudo. If error still persists delete the docs folder and try again. Build will be available in docs folder at root level. Commit everything to master branch and push the changes, changes will automatically get reflected.
 
 
