@@ -1,3 +1,21 @@
+.vrs-input-container{
+	display: flex;
+}
+.vrs-input-prefix{
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	background-color: #ebeff2;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	height: 36px;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 14px;
+	border: 1px solid #c2c5cc;
+	border-right: none;
+	color: #6e7380
+}
 .vrs-input{
 	position: relative;
 	font-family: gilroy;
@@ -12,4 +30,19 @@
 	line-height: 14px;
 	height: 36px;
 	color: #6e7380;
+}
+.vrs-input-suffix{
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	background-color: #ebeff2;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	height: 36px;
+	box-sizing: border-box;
+	font-size: 14px;
+	line-height: 14px;
+	border: 1px solid #c2c5cc;
+	border-left: none;
+	color: #6e7380
 }
