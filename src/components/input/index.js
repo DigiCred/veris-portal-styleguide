@@ -25,15 +25,15 @@ class Input extends Component{
                     }
                     <input 
                         ref={this.input}
-                        className={["vrs-input", this.props.className?this.props.className:""].join(" ")}
                         {...this.props}
+                        className={["vrs-input", this.props.className?this.props.className:""].join(" ")}
                         style={{
-                            ...this.props.style,
                             border: this.props.error?"1px solid #f86f50": "1px solid #c2c5cc",
                             borderTopLeftRadius: this.props.prefix?0:9,
                             borderBottomLeftRadius: this.props.prefix?0:9,
                             borderTopRightRadius: this.props.suffix?0:9,
-                            borderBottomRightRadius: this.props.suffix?0:9                  
+                            borderBottomRightRadius: this.props.suffix?0:9,
+                            ...this.props.style,              
                         }}
                     />
                     {this.props.suffix && 

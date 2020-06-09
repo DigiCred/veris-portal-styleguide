@@ -32,7 +32,6 @@ Then you can import the components like any normal npm package:
 import React, { Component } from 'react'
 
 import {Input, Label ...} from 'veris-styleguide'
-import 'veris-styleguide/dist/index.css' //For veris theme
 
 class Example extends Component {
   render() {
