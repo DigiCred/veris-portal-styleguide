@@ -1,11 +1,10 @@
 # veris-styleguide
 
-> Veris React UI components for web
-For documentation of styleguide we are using react-styleguidist so for more details on how to document the components follow this link https://react-styleguidist.js.org/
+> Veris React UI components for web is created using create-react-library, for more details visit https://github.com/transitive-bullshit/create-react-library. For documentation of styleguide we are using react-styleguidist so for more details on how to document the components follow this link https://react-styleguidist.js.org/.
 
 ## Setup
 
--Clone this repo and then run the following commands in the cloned directory for setting up the local package:
+- Clone this repo and then run the following commands in the cloned directory for setting up the local package:
 ```bash
 npm i
 npm run build
@@ -33,13 +32,16 @@ Then you can import the components like any normal npm package:
 import React, { Component } from 'react'
 
 import {Input, Label ...} from 'veris-styleguide'
-import 'veris-styleguide/dist/index.css' //For veris theme
 
 class Example extends Component {
   render() {
     return <Input/>
   }
 }
+```
+Note: Link index.css in html file as shown below and upload the index.css to Veris instance specific S3 Bucket
+```bash
+  <link rel="stylesheet" href="/assets/index.css">
 ```
 
 ## Publish Styleguide

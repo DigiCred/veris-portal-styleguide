@@ -7,6 +7,9 @@
     height: 16px;
     fill: #c2c5cc
 }
+.vrs-select{
+    width: 100%;
+}
 .vrs-select-shake{
     animation: shake 0.5s; 
     animation-iteration-count: 1; 

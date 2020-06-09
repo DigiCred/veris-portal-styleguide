@@ -117,7 +117,7 @@ class Select extends Component{
                 {this.props.label &&
                     <Label>{`${this.props.label} ${this.props.isRequired?"*":""}`}</Label>
                 }     
-                <div id={this.props.id} className={[this.state.shake?"vrs-select-shake":""].join(" ")}>
+                <div id={this.props.id} className={["vrs-select",this.state.shake?"vrs-select-shake":""].join(" ")}>
                     <ReactSelect
                         {...this.props}
                         styles={customStyles}
