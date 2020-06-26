@@ -39,9 +39,9 @@ class Example extends Component {
   }
 }
 ```
-Note: Link index.css in html file as shown below and upload the index.css to Veris instance specific S3 Bucket
+Note: Rename index.css to veris-styleguide.css and add a link in html file as shown below and upload the veris-styleguide.css to Veris instance specific S3 Bucket
 ```bash
-  <link rel="stylesheet" href="/assets/index.css">
+  <link rel="stylesheet" href="veris-styleguide.css">
 ```
 
 ## Publish Styleguide
