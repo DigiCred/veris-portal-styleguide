@@ -52,7 +52,7 @@ class Select extends Component{
         const customStyles = {
             control: (provided, state) => ({
               ...provided,
-              border: !state.isFocused ? "1px solid #c2c5cc" : "1px solid #6a6afe",
+              border: this.props.error?"1px solid #f86f50": "1px solid #c2c5cc",
               borderRadius: "9px", 
               fontSize: "14px",
               lineHeight: "22px",

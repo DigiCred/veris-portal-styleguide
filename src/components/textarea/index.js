@@ -8,6 +8,9 @@ const Textarea = React.memo((props)=>{
         <React.Fragment>
             <Label>{props.label}</Label>
             <textarea className="vrs-textarea" 
+                style={{
+                    border: props.error?"1px solid #f86f50": "1px solid #c2c5cc",
+                }}
                 {...props}
             />
             <Error>{props.error}</Error>

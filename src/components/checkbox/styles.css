@@ -1,7 +1,9 @@
 .vrs-checkbox-subcontainer{
     display: flex;
     align-items: flex-start;
-    height: 100%;
+}
+.vrs-checkbox{
+    transform: translateY(3px)
 }
 .vrs-checkbox-label{
     display: inline-block;

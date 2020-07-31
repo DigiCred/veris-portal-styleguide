@@ -19,9 +19,11 @@ class DateTime extends Component{
                 }
                 <ReactDateTime 
                     ref={this.dateTime}
-                    ref={(ref)=>{this.dateTime=ref}}
                     inputProps={{
-                        placeholder: this.props.placeholder? this.props.placeholder: "Type here..."
+                        placeholder: this.props.placeholder? this.props.placeholder: "Type here...",
+                        style: {
+                            border: this.props.error?"1px solid #f86f50": "1px solid #c2c5cc"
+                        }
                     }}
                     {...this.props}
                 />
