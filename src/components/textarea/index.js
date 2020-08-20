@@ -7,7 +7,7 @@ const Textarea = React.memo((props)=>{
     return (
         <React.Fragment>
             {this.props.label && 
-                <Label>{`${this.props.label} ${this.props.isRequired?"*":""}`}</Label>
+                <Label>{`${props.label} ${props.isRequired?"*":""}`}</Label>
             }
             <textarea className="vrs-textarea" 
                 style={{
