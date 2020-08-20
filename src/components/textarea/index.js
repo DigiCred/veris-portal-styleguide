@@ -6,7 +6,7 @@ import Error from '../error'
 const Textarea = React.memo((props)=>{
     return (
         <React.Fragment>
-            {this.props.label && 
+            {props.label && 
                 <Label>{`${props.label} ${props.isRequired?"*":""}`}</Label>
             }
             <textarea className="vrs-textarea" 
