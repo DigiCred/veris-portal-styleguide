@@ -13,7 +13,7 @@ import CheckBox from './components/checkbox'
 import Button from './components/button'
 import Spinner from './components/spinner'
 import Error from './components/error'
-import Toggle from './components/toggle'
+import Toggle from './components/toggle' 
 
 
 export {Label, Input, Select, Textarea, DateTime, CheckBox, Button, Spinner, Error, Toggle} 
