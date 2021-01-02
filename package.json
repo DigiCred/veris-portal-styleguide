@@ -28,7 +28,7 @@
   "dependencies": {
     "cogo-toast": "^4.2.3",
     "jump.js": "^1.0.2",
-    "moment": "^2.26.0",
+    "moment": "^2.29.1",
     "rc-tooltip": "^4.0.3",
     "react-datetime": "^2.16.3",
     "react-select": "^3.0.8",
